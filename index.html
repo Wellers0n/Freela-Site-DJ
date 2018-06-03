@@ -87,7 +87,7 @@
               <i class="fa fa-indent fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Sonorização de festas e eventos</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Som para seu evento, desde a festa dos sonhos de 15 anos até comemorações de aniversário e Casamentos. Contamos com a mais nova tecnologia existente no mercado, suportada por parcerias que nos conferem um dos melhores serviços do Rio de Janeiro.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -95,7 +95,7 @@
               <i class="fa fa-microphone fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Som ao vivo para bandas e grupos de samba</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Profissionais formados em cursos de Mesas digitais e analógicas conferem qualidade e um serviço diferenciado, com iluminação de palco, tratamento diferenciado e uma carteira de clientes com sucesso comprovado.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -103,7 +103,8 @@
               <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Deejay para corporativos</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Seriedade e compromisso, alinhados a um repertório que procura o melhor da música criando um ambiente agradável para sua reunião ou evento empresarial.
+              </p>
           </div>
         </div>
       </div>
@@ -274,41 +275,70 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate" action="http://troia.kinghost.net/formmail.cgi" method="POST">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Por favor, insira seu nome.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="E-Mail *" required="required" data-validation-required-message="Por favor, insira o seu endereço de E-mail.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Telefone *" required="required" data-validation-required-message="Por favor, insira seu número de telefone.">
-                    <p class= "help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Mensagem *" required="required" data-validation-required-message="Por favor, insira uma mensagem."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <input type="hidden" name="recipient" value="orcamento@studioefestas.com.br">
-                  <input type="hidden" name="redirect" value="http://www.studioefestas.com.br/site2018/mail/contact.php">
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar mensagem</button>
-                </div>
-              </div>
-            </form>
+            <form action="http://troia.kinghost.net/formmail.cgi" method="POST" id="formContato">
+              
+							<table border="0" width="100%" cellpadding="0" style="margin-top: 50px;">
+								
+                  <td style="color: azure; text-align: center;"></td>
+                  
+									<input name="Nome" type="name" size="40" style="margin-bottom:15px;text-align: center; border-radius: 15px; margin-left: 30%;" placeholder="Nome *" required="required" data-validation-required-message="Por favor, insira seu nome."/>
+															
+									<input name="Email " type="email" size="40" style="margin-bottom:15px; border-radius: 15px; margin-left: 30%; text-align: center;" placeholder="Email *" required="required" data-validation-required-message="Por favor, insira seu email."/></td>
+								
+									<input name="Telefone " type="number" size="40" style="margin-bottom:15px; border-radius: 15px; margin-left: 30%; text-align: center;" placeholder="Telefone *" required="required" data-validation-required-message="Por favor, insira seu telefone." /></td>
+								
+									<input name="Data " type="date" size="40" style="margin-bottom:15px; border-radius: 15px; margin-left: 2%; text-align: center;" placeholder="Data *" required="required" data-validation-required-message="Por favor, insira uma data."/></td>
+								
+									<input name="Descricao" type="text" size="40" style="margin-bottom:15px; margin-left:30%; border-radius: 15px; text-align: center;" placeholder="Descrição *" required="required" data-validation-required-message="Por favor, insira sua descrição."/></td>
+							
+									<input name="Local " type="local" size="40" style="margin-bottom:15px; text-align: center; border-radius: 15px; margin-left: 30%; " placeholder="Local *" required="required" data-validation-required-message="Por favor, insira seu local."/></td>
+								
+									<textarea rows="4" cols="40" name="Observacoes" style="margin-left:30%; border-radius: 15px; text-align: center;" placeholder="Observações *" required="required" data-validation-required-message="Por favor, insira sua observação."></textarea></td>
+							
+							</table>
+							<p align="center">
+								
+								<input type="hidden" name="recipient" value="orcamento@studioefestas.com.br">
+								<input type="hidden" name="redirect" value="http://www.studioefestas.com.br/index.html">
+								<input type="submit" value="Enviar" style="border-radius: 15px; width: 150px; height: 55px;">
+							</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!--Contato1-->
+    <section id="contact1">
+      <div class="container1">
+        <div class="row1">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Vamos entrar em contato!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Pronto para começar seu próximo projeto conosco? Isso é ótimo! Ligue para nós ou envie-nos um e-mail e entraremos em contato o mais breve possível!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-whatsapp fa-3x mb-3 sr-contact"></i>
+            <p>(21) 98255-9214</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">contatos@studioefestas.com.br</a>
+            </p>
+          </div>
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>(21) 4128-4551</p>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-4">
 
     <!-- Footer -->
     <footer>
@@ -324,6 +354,17 @@
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCfQ86dBBe-cROVYoop80gEg" target=_blank>
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="http://s801.photobucket.com/user/Studioefestas/slideshow/" target=_blank>
+                  <i class="fa fa-photo"></i>
+                </a>
+              </li>
+              
               <li class="list-inline-item">
                 <a href="https://www.instagram.com/studioefestas/" target=_blank>
                   <i class="fa fa-instagram"></i>
